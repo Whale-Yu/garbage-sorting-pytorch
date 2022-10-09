@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-09-21T07:57:42.141809",
+    "startedAt": "2022-09-21T07:57:40.529563",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\yujunyu\\PycharmProjects\\\u4eba\u5de5\u667a\u80fd2022\u8bad\u7ec3\u8425\uff08\u5e38\u4fe1\u606f\uff09\\\u5783\u573e\u5206\u7c7b\uff08pytorch\uff09\\train_1_resnet18_wandb.py",
+    "codePath": "train_1_resnet18_wandb.py",
+    "host": "DESKTOP-L1DA11E",
+    "username": "yujunyu",
+    "executable": "C:\\Users\\yujunyu\\.conda\\envs\\pytorch\\python.exe"
+}

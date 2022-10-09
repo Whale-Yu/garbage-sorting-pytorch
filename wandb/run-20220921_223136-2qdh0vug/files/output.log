@@ -1,0 +1,14 @@
+C:\Users\yujunyu\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\yujunyu\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+训练准备......
+{'cardboard': 0, 'glass': 1, 'metal': 2, 'paper': 3, 'plastic': 4, 'trash': 5}
+加载预训练模型
+训练开始......
+epoch:0/5 	 train_acc:51.797386169433594 	 val_acc:70.2173843383789 	 train_loss:0.9949098229408264 	 val_loss:0.86160808801651
+epoch:1/5 	 train_acc:83.87799072265625 	 val_acc:82.17391204833984 	 train_loss:0.4382143020629883 	 val_loss:0.6089864373207092
+epoch:2/5 	 train_acc:90.57733917236328 	 val_acc:85.65216827392578 	 train_loss:0.39786165952682495 	 val_loss:0.46854642033576965
+epoch:3/5 	 train_acc:93.35511779785156 	 val_acc:86.9565200805664 	 train_loss:0.2032320499420166 	 val_loss:0.3300771415233612
+epoch:4/5 	 train_acc:95.91503143310547 	 val_acc:88.91304016113281 	 train_loss:0.12793108820915222 	 val_loss:0.3377995789051056
+训练结束！

@@ -1,0 +1,235 @@
+2022-09-21 22:35:14,705 INFO    StreamThr :2492 [internal.py:wandb_internal():88] W&B internal server running at pid: 2492, started at: 2022-09-21 22:35:14.705621
+2022-09-21 22:35:14,721 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: status
+2022-09-21 22:35:14,721 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: status
+2022-09-21 22:35:14,721 DEBUG   SenderThread:2492 [sender.py:send():301] send: header
+2022-09-21 22:35:14,721 DEBUG   SenderThread:2492 [sender.py:send():301] send: run
+2022-09-21 22:35:14,721 INFO    WriterThread:2492 [datastore.py:open_for_write():75] open: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\run-17knvekv.wandb
+2022-09-21 22:35:15,699 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: check_version
+2022-09-21 22:35:15,715 INFO    SenderThread:2492 [dir_watcher.py:__init__():216] watching files in: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files
+2022-09-21 22:35:15,715 INFO    SenderThread:2492 [sender.py:_start_run_threads():912] run started: 17knvekv with start time 1663770914.705621
+2022-09-21 22:35:15,715 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:15,715 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:15,715 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: check_version
+2022-09-21 22:35:16,718 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:35:20,080 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: run_start
+2022-09-21 22:35:20,095 DEBUG   HandlerThread:2492 [meta.py:__init__():34] meta init
+2022-09-21 22:35:20,095 DEBUG   HandlerThread:2492 [meta.py:__init__():49] meta init done
+2022-09-21 22:35:20,095 DEBUG   HandlerThread:2492 [meta.py:probe():215] probe
+2022-09-21 22:35:20,139 DEBUG   HandlerThread:2492 [git.py:repo():40] git repository is invalid
+2022-09-21 22:35:20,139 DEBUG   HandlerThread:2492 [meta.py:_save_pip():53] save pip
+2022-09-21 22:35:20,139 DEBUG   HandlerThread:2492 [meta.py:_save_pip():67] save pip done
+2022-09-21 22:35:20,139 DEBUG   HandlerThread:2492 [meta.py:_save_conda():74] save conda
+2022-09-21 22:35:20,139 ERROR   HandlerThread:2492 [meta.py:_save_conda():83] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\yujunyu\.conda\envs\pytorch\lib\site-packages\wandb\sdk\internal\meta.py", line 79, in _save_conda
+    subprocess.call(
+  File "C:\Users\yujunyu\.conda\envs\pytorch\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\yujunyu\.conda\envs\pytorch\lib\subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\yujunyu\.conda\envs\pytorch\lib\subprocess.py", line 1435, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2022-09-21 22:35:20,139 DEBUG   HandlerThread:2492 [meta.py:_save_conda():84] save conda done
+2022-09-21 22:35:20,139 DEBUG   HandlerThread:2492 [meta.py:probe():253] probe done
+2022-09-21 22:35:20,218 DEBUG   SenderThread:2492 [sender.py:send():301] send: files
+2022-09-21 22:35:20,218 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-09-21 22:35:20,234 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-21 22:35:20,234 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: stop_status
+2022-09-21 22:35:20,584 DEBUG   SenderThread:2492 [sender.py:send():301] send: telemetry
+2022-09-21 22:35:20,758 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\requirements.txt
+2022-09-21 22:35:20,758 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:35:20,758 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-metadata.json
+2022-09-21 22:35:20,758 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\conda-environment.yaml
+2022-09-21 22:35:21,505 INFO    Thread-21 :2492 [upload_job.py:push():139] Uploaded file C:\Users\yujunyu\AppData\Local\Temp\tmprguo32tuwandb\18llnbo3-wandb-metadata.json
+2022-09-21 22:35:22,775 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:35:32,696 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:35:32,696 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:35:32,696 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:35:32,696 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:32,696 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:32,696 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:35:32,696 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:32,696 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:32,873 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:35:34,880 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:35:35,609 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-21 22:35:35,609 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: stop_status
+2022-09-21 22:35:42,615 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:35:42,615 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:35:42,615 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:42,615 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:35:42,615 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:42,615 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:35:42,615 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:42,615 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:42,997 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:35:45,012 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:35:47,035 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\config.yaml
+2022-09-21 22:35:51,275 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-21 22:35:51,276 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: stop_status
+2022-09-21 22:35:51,761 DEBUG   SenderThread:2492 [sender.py:send():301] send: stats
+2022-09-21 22:35:54,676 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:35:54,676 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:35:54,676 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:54,676 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:35:54,676 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:54,676 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:35:54,676 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:35:54,676 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:35:55,114 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:35:57,143 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:36:04,444 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:36:04,444 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:36:04,444 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:36:04,444 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:36:04,444 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:36:04,460 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:36:04,460 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:36:04,460 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:36:05,217 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:36:06,775 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-21 22:36:06,775 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: stop_status
+2022-09-21 22:36:07,250 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:36:14,590 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:36:14,590 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:36:14,590 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:36:14,590 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-21 22:36:14,590 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:36:14,590 DEBUG   SenderThread:2492 [sender.py:send():301] send: history
+2022-09-21 22:36:14,590 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:36:14,590 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:36:14,734 DEBUG   SenderThread:2492 [sender.py:send():301] send: exit
+2022-09-21 22:36:14,734 INFO    SenderThread:2492 [sender.py:send_exit():437] handling exit code: 0
+2022-09-21 22:36:14,734 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:14,734 INFO    SenderThread:2492 [sender.py:send_exit():439] handling runtime: 54
+2022-09-21 22:36:14,734 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:36:14,734 INFO    SenderThread:2492 [sender.py:send_exit():445] send defer
+2022-09-21 22:36:14,734 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:14,734 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,734 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 0
+2022-09-21 22:36:14,734 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,734 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-09-21 22:36:14,734 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 1
+2022-09-21 22:36:14,734 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,734 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 1
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 2
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send():301] send: stats
+2022-09-21 22:36:14,812 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,812 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 2
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 3
+2022-09-21 22:36:14,812 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,812 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 3
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 4
+2022-09-21 22:36:14,812 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,812 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 4
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send():301] send: summary
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 5
+2022-09-21 22:36:14,812 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,812 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 5
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 6
+2022-09-21 22:36:14,812 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:14,812 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 6
+2022-09-21 22:36:14,812 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:14,812 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-09-21 22:36:14,845 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:15,311 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:36:17,318 INFO    Thread-17 :2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:36:18,858 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 7
+2022-09-21 22:36:18,858 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:18,858 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:18,858 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 7
+2022-09-21 22:36:18,858 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:18,858 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-09-21 22:36:18,858 INFO    SenderThread:2492 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-21 22:36:18,963 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:19,339 INFO    SenderThread:2492 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:36:19,339 INFO    SenderThread:2492 [dir_watcher.py:finish():392] scan: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files
+2022-09-21 22:36:19,339 INFO    SenderThread:2492 [dir_watcher.py:finish():406] scan save: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\conda-environment.yaml conda-environment.yaml
+2022-09-21 22:36:19,339 INFO    SenderThread:2492 [dir_watcher.py:finish():406] scan save: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\config.yaml config.yaml
+2022-09-21 22:36:19,339 INFO    SenderThread:2492 [dir_watcher.py:finish():406] scan save: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log output.log
+2022-09-21 22:36:19,339 INFO    SenderThread:2492 [dir_watcher.py:finish():406] scan save: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\requirements.txt requirements.txt
+2022-09-21 22:36:19,355 INFO    SenderThread:2492 [dir_watcher.py:finish():406] scan save: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-metadata.json wandb-metadata.json
+2022-09-21 22:36:19,355 INFO    SenderThread:2492 [dir_watcher.py:finish():406] scan save: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json wandb-summary.json
+2022-09-21 22:36:19,355 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 8
+2022-09-21 22:36:19,355 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:19,355 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:19,370 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 8
+2022-09-21 22:36:19,370 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:19,370 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-09-21 22:36:19,370 INFO    SenderThread:2492 [file_pusher.py:finish():168] shutting down file pusher
+2022-09-21 22:36:19,480 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:19,480 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:19,590 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:19,590 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:19,697 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:19,697 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:19,807 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:19,807 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:19,919 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:19,919 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,026 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,026 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,137 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,137 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,246 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,246 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,356 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,356 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,466 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,466 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,545 INFO    Thread-25 :2492 [upload_job.py:push():139] Uploaded file C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\wandb-summary.json
+2022-09-21 22:36:20,576 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,576 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,607 INFO    Thread-24 :2492 [upload_job.py:push():139] Uploaded file C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\requirements.txt
+2022-09-21 22:36:20,623 INFO    Thread-22 :2492 [upload_job.py:push():139] Uploaded file C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\config.yaml
+2022-09-21 22:36:20,623 INFO    Thread-23 :2492 [upload_job.py:push():139] Uploaded file C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\files\output.log
+2022-09-21 22:36:20,686 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,686 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,795 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:20,795 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:20,854 INFO    Thread-16 (_thread_body):2492 [sender.py:transition_state():458] send defer: 9
+2022-09-21 22:36:20,854 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:20,854 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 9
+2022-09-21 22:36:20,854 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:20,854 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-09-21 22:36:20,901 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:21,911 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 10
+2022-09-21 22:36:21,911 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:21,911 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:21,911 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 10
+2022-09-21 22:36:21,911 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:21,911 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-09-21 22:36:21,911 INFO    SenderThread:2492 [sender.py:transition_state():458] send defer: 11
+2022-09-21 22:36:21,911 DEBUG   SenderThread:2492 [sender.py:send():301] send: final
+2022-09-21 22:36:21,911 DEBUG   SenderThread:2492 [sender.py:send():301] send: footer
+2022-09-21 22:36:21,911 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: defer
+2022-09-21 22:36:21,911 INFO    HandlerThread:2492 [handler.py:handle_request_defer():161] handle defer: 11
+2022-09-21 22:36:21,911 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: defer
+2022-09-21 22:36:21,911 INFO    SenderThread:2492 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-09-21 22:36:22,021 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-21 22:36:22,021 DEBUG   SenderThread:2492 [sender.py:send_request():315] send_request: poll_exit
+2022-09-21 22:36:22,021 INFO    SenderThread:2492 [file_pusher.py:join():173] waiting for file pusher
+2022-09-21 22:36:23,311 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: sampled_history
+2022-09-21 22:36:23,311 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: get_summary
+2022-09-21 22:36:23,311 INFO    MainThread:2492 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-09-21 22:36:23,311 INFO    MainThread:2492 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-09-21 22:36:23,311 INFO    MainThread:2492 [wandb_run.py:_footer_sync_info():3277] logging synced files
+2022-09-21 22:36:23,311 DEBUG   HandlerThread:2492 [handler.py:handle_request():138] handle_request: shutdown
+2022-09-21 22:36:23,311 INFO    HandlerThread:2492 [handler.py:finish():807] shutting down handler
+2022-09-21 22:36:23,933 INFO    WriterThread:2492 [datastore.py:close():279] close: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220921_223514-17knvekv\run-17knvekv.wandb
+2022-09-21 22:36:24,213 INFO    SenderThread:2492 [sender.py:finish():1315] shutting down sender
+2022-09-21 22:36:24,213 INFO    SenderThread:2492 [file_pusher.py:finish():168] shutting down file pusher
+2022-09-21 22:36:24,213 INFO    SenderThread:2492 [file_pusher.py:join():173] waiting for file pusher
+2022-09-21 22:36:24,323 INFO    MainThread:2492 [internal.py:handle_exit():78] Internal process exited

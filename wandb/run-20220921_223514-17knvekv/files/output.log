@@ -1,0 +1,14 @@
+C:\Users\yujunyu\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\yujunyu\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+训练准备......
+{'cardboard': 0, 'glass': 1, 'metal': 2, 'paper': 3, 'plastic': 4, 'trash': 5}
+加载本地模型
+训练开始......
+epoch:0/5 	 train_acc:95.47930145263672 	 val_acc:94.56521606445312 	 train_loss:0.14233089983463287 	 val_loss:0.14594130218029022
+epoch:1/5 	 train_acc:96.94989013671875 	 val_acc:94.78260803222656 	 train_loss:0.19548441469669342 	 val_loss:0.15367189049720764
+epoch:2/5 	 train_acc:98.2026138305664 	 val_acc:94.78260803222656 	 train_loss:0.0828680694103241 	 val_loss:0.18264569342136383
+epoch:3/5 	 train_acc:99.01960754394531 	 val_acc:94.34782409667969 	 train_loss:0.0561591275036335 	 val_loss:0.14194226264953613
+epoch:4/5 	 train_acc:99.56427001953125 	 val_acc:94.56521606445312 	 train_loss:0.04427197948098183 	 val_loss:0.150505930185318
+训练结束！

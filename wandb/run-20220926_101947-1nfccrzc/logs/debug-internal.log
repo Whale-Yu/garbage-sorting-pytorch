@@ -1,0 +1,7 @@
+2022-09-26 10:19:47,245 INFO    StreamThr :12692 [internal.py:wandb_internal():88] W&B internal server running at pid: 12692, started at: 2022-09-26 10:19:47.244164
+2022-09-26 10:19:47,246 DEBUG   HandlerThread:12692 [handler.py:handle_request():138] handle_request: status
+2022-09-26 10:19:47,250 DEBUG   SenderThread:12692 [sender.py:send_request():315] send_request: status
+2022-09-26 10:19:47,254 INFO    WriterThread:12692 [datastore.py:open_for_write():75] open: C:\Users\yujunyu\PycharmProjects\人工智能2022训练营（常信息）\垃圾分类（pytorch）\wandb\run-20220926_101947-1nfccrzc\run-1nfccrzc.wandb
+2022-09-26 10:19:47,254 DEBUG   SenderThread:12692 [sender.py:send():301] send: header
+2022-09-26 10:19:47,256 DEBUG   SenderThread:12692 [sender.py:send():301] send: run
+2022-09-26 10:20:04,378 DEBUG   HandlerThread:12692 [handler.py:handle_request():138] handle_request: poll_exit
