@@ -1,75 +1,57 @@
-# project
+# 👇体感互动——Hand Pose Estimation Based on Mediapipe And LSTM
 
-## 介绍
-
-## 环境依赖 
-pytorch框架
-
-## 目录结构
-
-```
-.
-|-Project
-    ├─dataset           //数据集
-    │  └─image                  
-    │      ├─cardboard
-    │      ├─glass
-    │      ├─metal
-    │      ├─paper
-    │      ├─plastic
-    │      └─trash
-    ├─input             //待预测图片————同数据集类别目录要一致
-    │  ├─pre_img
-    │  │  ├─cardboard
-    │  │  ├─glass
-    │  │  ├─metal
-    │  │  ├─paper
-    │  │  ├─plastic
-    │  │  └─trash
-    │  └─pre_img1
-    │  │  ├─cardboard
-    │  │  ├─glass
-    │  │  ├─metal
-    │  │  ├─paper
-    │  │  ├─plastic
-    │  │  └─trash
-    │  └─5.png          //单张待预测图
-    ├─model                 //模型保存
-    ├─recycleBin            //临时回收站
-    ├─wandb                 //wandb可视化日志
-    ├─detect_1_resnet18.py           //使用resnet18预测单张/多张
-    ├─detect_1_resnet50.py           //使用resnet50预测单张/多张
-    ├─detect_net_cnn_22.py           //使用net_cnn_22预测单张/多张
-    ├─load_dataset_1.py              //数据预处理
-    ├─net_cnn_22.png                 //自定义网络架构
-    ├─net_cnn_22.py                  //自定义cnn网络
-    ├─normalize.py                   //计算mean、std
-    ├─test.py                        //测试代码
-    ├─train.py                       //train1.0
-    ├─train_1_resnet_18.py           //train2.0
-    ├─train_1_resnet_18_22.py        //train3.0
-    ├─train_1_resnet_18_wandb.py     //train4.0
-    ├─train_1_resnet50.py            //train_resnet50
-    ├─train_net_cnn_22.py            //train_cnn_22
-    ├─参考资料                        //资料  
-    └─__pycache__
-```
+[TOC]
+## 🐱Introduce
+**体感互动——Hand Pose Estimation Based on Mediapipe And LSTM**
 
 
-## 代码使用说明
+基于mediapipe提取人体、手部等关键点和LSTM算法实现手势识别，并进一步实现体感互动的功能，如进行隔空移动、抓取、放大、缩小等手势操作，可为商业显示提供智能交互应用，如3D模型的展示。
 
-###说明：
-#### 1、数据集：
-链接：https://pan.baidu.com/s/1LMGoLA4f_xuC3q-7YdJweg 
-提取码：cz7y
-##### 2、训练
-使用train.py训练
-##### 3、模型保存
-model文件夹下有一个训练好的模型,效果不错;
-#### 4、预测
-使用detect.py预测单张或多张
 
-### 主要使用代码
-1、train.py——训练
+* demo1:hand_pose_estimation
+![demo1.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg2MGZkZmRmMmM3ZWM5MzFiYmZkOTNiMDE3YmY4YWUxZjAwOWYxMiZjdD1n/vDUQG87L8nGSPZPqhg/giphy-downsized-large.gif)
 
-2、detect.py———预测
+* demo2:体感互动
+![demo2.gif](https://media.giphy.com/media/HTxgKNyrBWmCCfZTqY/giphy.gif)
+
+## 😔‍Process
+
+### 1、训练模型
+* train_my_hand_pose文件夹
+### 2、预测
+* predict系列代码
+### 3、体感互动
+* 03_predict之体感互动.py
+
+
+## 🐖How to Use Code
+
+1）依赖包
+
+``pip install tensorflow-gpu mediapipe
+  ``
+
+2）手势实时预测
+
+``python 02_predict.py
+  ``
+
+3）体感互动
+
+``python 03_predict之体感互动.py
+  ``
+
+## 🐏Reference
+
+[Mediapipe](https://google.github.io/mediapipe/)
+
+[ActionDetectionforSignLanguage](https://github.com/nicknochnack/ActionDetectionforSignLanguage)
+
+[VRMap](https://720.vrqjcs.com/t/9332870054821ffc)
+
+## 🐕Thanks
+@Studio:JHC Software Dev Studio 
+
+@Mentor:HuangRiChen
+
+@Author:YuJunYu
